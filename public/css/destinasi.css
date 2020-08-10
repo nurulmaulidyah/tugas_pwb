@@ -1,0 +1,196 @@
+body{
+    overflow-x:hidden ;
+}
+
+.header::before{
+    content:'';
+    background: black;
+    position: absolute;
+}
+.header nav{
+    background-color: darkgoldenrod;
+}
+.header .media{
+    color: black;
+}
+.header .media-body h5{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: normal;
+}
+.header .media-body h5 span{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+}
+.header .navbar-nav li a{
+    margin-left: 14px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+}
+.header .navbar-nav li a:hover::after{
+    content:'';
+    display: block;
+    border-bottom: 3px solid darkgoldenrod;
+}
+.header .navbar-nav li a:hover::before{
+    color: orange;
+}
+.header .hero{
+    margin-top: 0;
+    border-top: 3px solid rgba(128, 128, 128, 0.8);
+    padding-top: 100px;
+}
+.header .hero h2{
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+.header .hero p{
+    font-size: 26px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 400;
+}
+.header .hero .btn-light{
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: white;
+    padding: 10px 70px;
+    border-radius: 50px;
+}
+.header .hero .btn-light:hover{
+    background-color: transparent;
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+    font-weight: 600;
+}
+.header .hero .btn-outline-light{
+    border-color: darkgoldenrod;
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 50px;
+}
+.header .hero .btn-outline-light:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: 400;
+}
+
+.discover{
+    margin: 20px;
+}
+.discover h1{
+    border-bottom: 5px solid orange;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.discover .caraousel{
+    padding-top: 20px;
+}
+#sidebar-overlay{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9998;
+    opacity: 0.5;
+    scroll-behavior: unset;
+  }
+  
+  #sidebar{
+    height: 100vh;
+    min-width: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    background: #fff;
+    padding: 20px 30px;
+    color: #10161A;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  #sidebar ul li a{
+    color: #10161A;
+  }
+  
+  .sidebar-hide{
+    transform: translateX(100%);
+  }
+  
+  #menu-btn, #close-btn{
+    color: #1b1b1b;
+    cursor: pointer;
+  }
+  /* shadow */
+  .box-shadow{
+    box-shadow: 0px 0px 30px -5px #2a2a2a;
+  }
+  
+  /* max-height */
+  .mxh-500{
+    max-height: 500px;
+  }
+  
+  .mxh-440{
+    max-height: 440px;
+  }
+  
+  
+.ov-x-s{
+    overflow-x: scroll;
+  }
+  .ov-y-s{
+    overflow-y: scroll;
+  }
+  .ov-y-s::-webkit-scrollbar{
+    width: 4px;
+    background-color: #F4F4F4
+  }
+  .ov-y-s::-webkit-scrollbar-thumb{
+    background-color: #2a2a2a;
+  }
+
+.parallax{
+    background-image: url('../img/3.jpg');
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+}
+.footer{
+    
+    padding-bottom: 2px;
+    background-color: black;
+}
+
+.footer p{
+    color: darkgrey;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+.footer .copyright .icon{
+   
+}
+.footer .copyright .icon a{
+    color: darkgrey;
+    font-size: 26px;
+    margin-right: 30px;
+}
+.footer .copyright p{
+    margin-top: 100px;
+    border-top: 2px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+}
